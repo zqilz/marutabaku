@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja" data-lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="siteTitle">マルタバク | Marutabaku - 新感覚インドネシアスイーツ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header>
+        <nav>
+            <div class="logo-nav" data-translate-key="navLogo">マルタバク</div>
+            <ul>
+                <li><a href="#story" data-translate-key="navStory">私たちの物語</a></li>
+                <li><a href="#menu" data-translate-key="navMenu">メニュー</a></li>
+                <li><a href="#location" data-translate-key="navLocation">店舗情報</a></li>
+            </ul>
+            <div class="lang-picker">
+                <button data-lang="ja" class="active">JP</button>
+                <button data-lang="en">EN</button>
+                <button data-lang="id">ID</button>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <img src="./assets/logo.png" alt="Marutabaku Logo" class="main-logo">
+                <h1 class="brand-name" data-translate-key="heroBrandName">マルタバク</h1>
+                <p class="tagline" data-translate-key="tagline">インドネシアの魂、日本の心で。</p>
+            </div>
+            <div class="scroll-down">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- The rest of the HTML remains the same... -->
+
+        <section id="story" class="story-section">
+            <div class="container reveal">
+                <h2 data-translate-key="storyTitle">それは、一枚のパンケーキから始まった。</h2>
+                <p data-translate-key="storyText">
+                    「マルタバク」はインドネシアの街角で愛されるソウルフード。
+                    私たちはその伝統的な美味しさに、日本の繊細さと最高級の素材を加え、
+                    全く新しい体験として「マルタバク」を再創造しました。
+                </p>
+            </div>
+        </section>
+
+        <section class="two-souls">
+            <div class="soul-card suitsu-card reveal">
+                <div class="soul-image">
+                    <img src="https://i.imgur.com/gO0w8c9.png" alt="Suitsu Martabak" class="interactive-img">
+                </div>
+                <h3>スイーツ | SUUITSU</h3>
+                <p data-translate-key="suuitsuDesc">とろけるチョコレート、香ばしいナッツ、濃厚チーズ。幸せを重ねた、甘い宝石箱。</p>
+            </div>
+            <div class="soul-card eggu-card reveal">
+                <div class="soul-image">
+                    <img src="https://i.imgur.com/u19M4gC.png" alt="Eggu Martabak" class="interactive-img">
+                </div>
+                <h3>エッグ | EGGU</h3>
+                <p data-translate-key="egguDesc">新鮮な卵とジューシーな具材が織りなす、サクサクもちもちの新食感お食事パンケーキ。</p>
+            </div>
+        </section>
+
+        <section class="commitment-section">
+            <div class="container reveal">
+                <h2 data-translate-key="commitmentTitle">私たちのこだわり</h2>
+                <div class="commitments-grid">
+                    <div class="commitment-item">
+                        <div class="icon">🌾</div>
+                        <h3 data-translate-key="commit1Title">厳選された小麦粉</h3>
+                        <p data-translate-key="commit1Desc">風味豊かで、もっちりとした食感を生み出す特別な小麦粉を使用。</p>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="icon">🍫</div>
+                        <h3 data-translate-key="commit2Title">職人のチョコレート</h3>
+                        <p data-translate-key="commit2Desc">世界中から選び抜いたカカオから作られた、口溶け滑らかなチョコレート。</p>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="icon">🥚</div>
+                        <h3 data-translate-key="commit3Title">新鮮な平飼い卵</h3>
+                        <p data-translate-key="commit3Desc">コクと旨味が違う、契約農家から届く新鮮な卵だけを使います。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+             <div class="container reveal">
+                <h2 data-translate-key="menuTitle">メニュー</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <h4 data-translate-key="menu1Title">クラシック・チョコナッツ</h4>
+                        <p data-translate-key="menu1Desc">濃厚ベルギーチョコとカリフォルニア産ローストピーナッツの王道コンビ。</p>
+                        <span class="price">¥1200</span>
+                    </div>
+                    <div class="menu-card">
+                        <h4 data-translate-key="menu2Title">抹茶とあずきの京都</h4>
+                        <p data-translate-key="menu2Desc">宇治抹茶を練り込んだ生地に、北海道産あずきと黒蜜を添えて。</p>
+                        <span class="price">¥1500</span>
+                    </div>
+                    <div class="menu-card">
+                        <h4 data-translate-key="menu3Title">プレミアム・ミートラバー</h4>
+                        <p data-translate-key="menu3Desc">国産牛100%のミンチと特製スパイスが香る、満足感たっぷりの一枚。</p>
+                        <span class="price">¥1600</span>
+                    </div>
+                    <div class="menu-card">
+                        <h4 data-translate-key="menu4Title">きのこのトリュフクリーム</h4>
+                        <p data-translate-key="menu4Desc">数種のきのこと芳醇なトリュフクリームソース。ワインと共に。</p>
+                        <span class="price">¥1800</span>
+                    </div>
+                </div>
+             </div>
+        </section>
+        
+        <section id="location" class="location-section">
+            <div class="container reveal">
+                <h2 data-translate-key="locationTitle">会いに来てください</h2>
+                <p data-translate-key="locationName">マルタバク 原宿店</p>
+                <p>〒150-0001 東京都渋谷区神宮前1-2-3</p>
+                <p data-translate-key="locationHours">営業時間: 11:00 - 20:00 (年中無休)</p>
+                <div class="map-placeholder">
+                    <p data-translate-key="mapText">ここに地図が入ります</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-translate-key="footerText">&copy; 2024 Marutabaku Japan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
