@@ -175,7 +175,7 @@ nav a:hover::after {
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
-    transform-origin: 1px;
+    transform-origin: center; /* Corrected for proper animation */
 }
 
 
@@ -329,6 +329,7 @@ nav a:hover::after {
     font-size: 1.3rem;
     margin-bottom: 10px;
     color: var(--white-cream);
+    padding-right: 90px; /* Prevents long titles from overlapping with the price */
 }
 .menu-card .price {
     font-size: 1.3rem;
@@ -460,14 +461,15 @@ footer {
         display: flex;
     }
 
+    /* Corrected hamburger animation */
     body.nav-open .hamburger-menu span:first-child {
-        transform: rotate(45deg) translate(5px, 5px);
+        transform: translateY(9px) rotate(45deg);
     }
     body.nav-open .hamburger-menu span:nth-child(2) {
         opacity: 0;
     }
     body.nav-open .hamburger-menu span:last-child {
-        transform: rotate(-45deg) translate(5px, -5px);
+        transform: translateY(-9px) rotate(-45deg);
     }
 }
 
